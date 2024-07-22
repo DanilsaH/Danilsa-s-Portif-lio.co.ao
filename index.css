@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    font-family: 'Núnito', sans-serif;
+}
+
+
+body {
+    background-color: #fff;
+    color: #333;
+    background: linear-gradient(to right, 4s, infinite, #443939, #ece0d6);
+    box-shadow: -3px -3px 5px 0px rgba(0, 0, 0, 0.5), 3px 3px 5px 0px rgba(255, 255, 255, 0.5);
+
+    background-size: 500% 100%;
+
+    animation: easy 4.5s ease-in-out alternate infinite;
+}
+
+@keyframes easy {
+    0% {
+        background-position-x: 0%;
+    }
+
+    v 100% {
+        background-position-x: 100%;
+    }
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.profile-img {
+    max-width: 300px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.about {
+    max-width: 600px;
+
+}
+
+.about h1,
+.about h4,
+.about h6 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+
+}
+
+.about button {
+    background-color: #fefcfc;
+    color: #090909;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 13px;
+    height: 45px;
+
+}
+
+.about button:hover {
+    background-color: #555;
+    cursor: pointer;
+    color: aquamarine;
+    border-radius: 13px;
+}
+
+.works {
+    padding: 40px;
+    text-align: center;
+
+    border-radius: 6px;
+    border-color: rgb(140, 125, 125);
+}
+
+.works h2 {
+    margin-bottom: 40px;
+}
+
+
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.table-item {
+    background-color: #f9f5f5;
+    border: 5px solid #312f2f;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.5s;
+    border-radius: 9px;
+
+}
+
+
+
+.table-item:hover {
+    transform: scale(1.6);
+}
+
+.table-item a {
+    text-decoration: black;
+    color: rgb(89, 84, 84);
+    font-size: 20px;
+
+}
+
+.registration {
+    padding: 40px;
+
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.registration form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: #f7f1f1;
+}
+
+.registration form input,
+.registration form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    border-color: rgb(78, 57, 57);
+}
+
+.registration form button {
+    background-color: #161515;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.registration form button:hover {
+    background-color: #fdf5f5;
+}
+}
+
+.social-icons {
+    display: inline-flex;
+}
+
+.social-icons a {
+    display: inline-flex;
+    height: 40px;
+    margin-left: 290px;
+    cursor: pointer;
+
+}
+
+
+
+.roles {
+    font-size: 45px;
+    font-weight: 300;
+
+}
+
+.roles span {
+    position: relative;
+}
+
+.roles span::before {
+    content: "";
+    color: red;
+    animation: palavras 20s infinite;
+}
+
+.roles span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid red;
+    right: 10px;
+    opacity: 1;
+    animation: cursor 8s infinite;
+    ~width: calc(100% + 18px);
+    background-color: #fff;
+}

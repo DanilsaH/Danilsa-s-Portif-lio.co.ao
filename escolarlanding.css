@@ -1,0 +1,147 @@
+body {
+    background-color: salmon;
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #eaeaea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header .banner {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #000;
+    font-family: fantasy;
+    border-color: #333;
+    text-decoration: overline;
+}
+
+.fraseprof {
+    margin-top: 10px;
+    color: #000;
+    font-size: 15px;
+    font-family: fantasy;
+    border-color: #333;
+    text-decoration: underline;
+}
+
+.fraseprof2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.fraseprof2 h4 {
+    margin: 0 10px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+section h2 {
+    color: #000;
+}
+
+section p {
+    text-align: left;
+    color: #333;
+}
+
+.works .banner {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-style: inherit;
+}
+
+.temas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.slide {
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.slide:hover {
+    transform: scale(1.05);
+}
+
+.registration {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 7.5cm;
+}
+
+form label,
+form input,
+form textarea,
+{
+margin: 10px 0;
+background-color: rgb(248, 248, 242);
+}
+
+
+form button {
+    background-color: green;
+    cursor: ;
+    color: greenyellow;
+    border-radius: 8%;
+    width: 5cm;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #d7caca;
+
+}
+
+.youtube-icon {
+    width: 10px;
+    height: 10px;
+}
+
+footer {
+    margin-left: 50%;
+    border-width: 200cm;
+    margin-top: 25cm%;
+}

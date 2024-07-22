@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+font-family: 'Núnito', sans-serif;
+}
+
+
+body {
+    background-color: #fff;
+    color: #333;
+    background: linear-gradient(to right, 4s, infinite, #f7f6f6, #ece0d6);
+    box-shadow: -3px -3px 5px 0px rgba(0,0,0,0.5), 3px 3px 5px 0px rgba(255,255,255,0.5);
+
+        background-size: 500% 100%;
+
+animation: easy 4.5s ease-in-out alternate infinite ;
+}
+
+@keyframes easy{
+    0%{
+        background-position-x: 0%;
+    }v
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+
+header {
+    background-color: blanchedalmond;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+}
+
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.profile-img {
+    max-width: 300px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.about {
+    max-width: 600px;
+
+}
+
+.about h1, .about h4, .about h6 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+
+}
+
+.about button {
+    background-color: #333;
+    color: #470505;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 13px;
+
+}
+
+.about button:hover {
+    background-color: #555;
+    cursor: pointer;
+    color: aquamarine;
+border-radius: 13px;
+}
+
+.works {
+    padding: 40px;
+    text-align: center;
+
+    border-radius: 6px;
+    border-color: black;
+}
+
+.works h2 {
+    margin-bottom: 40px;
+}
+
+
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.table-item {
+    background-color: rgb(200, 172, 225);
+    border: 5px solid #3a3636;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.5s;
+    border-radius: 13px;
+    font-family: fantasy;
+
+}
+
+
+
+.table-item:hover {
+    transform: scale(1.6);
+}
+
+.table-item a {
+    text-decoration: black;
+    color: rgb(89, 84, 84);
+    font-size: 20px;
+
+}
+
+.registration {
+    padding: 40px;
+
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.registration form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: rgb(165, 89, 236);
+}
+
+.registration form input, .registration form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    border-color: rgb(46, 35, 35);
+}
+
+.registration form button {
+    background-color: #161515;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.registration form button:hover {
+    background-color: rgb(198, 169, 226);
+}
+
+
+
+footer {
+    background-color: #fcf7f7;
+display: inline;
+display: inline-block;
+ box-shadow: 0 -8px 20px rgba(9,0,0,70.1);
+text-align: center;
+width: 10%;
+padding: 10px;
+   height: auto;
+   margin-left: 90px;
+display: inline-flex;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+
+    width: 700px;
+ padding: 500px;
+    height: auto;
+    margin-left: 90px;
+display: inline-flex;
+}
+
+.social-icons a {
+  
+    width: 700px;
+ padding: 500px;
+    height: auto;
+    margin-left: 90px;
+display: inline-flex;
+
+}
+
+
+
+.roles{
+    font-size: 45px;
+font-weight: 300;
+
+}
+
+.roles span{
+    position: relative;
+}
+
+.roles span::before{
+    content: "";
+    color: red;
+    animation: palavras 20s infinite;
+}
+.roles span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid rgb(229, 183, 183);
+    right: 10px;
+    opacity: 1;
+    animation: cursor 8s infinite;~
+    width: calc(100% + 18px);
+    background-color: #fff;
+}

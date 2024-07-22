@@ -1,0 +1,140 @@
+body {
+    background: linear-gradient(90deg, grey, #6A5ACD, #C0C0C0, BLUE,#836FFF);
+    background-size: 1400% 1400%;
+    animation: rainbow 15s ease infinite;
+    color: #524040;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+}
+
+@keyframes rainbow {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.navebar {
+    background-blend-mode: hard-light;
+    border-radius: 3px;
+    background-color: #555;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.navebar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navebar nav ul li {
+    margin: 0 20px;
+}
+
+.navebar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navebar nav ul li a:hover {
+    color: gold;
+}
+
+.section-title {
+    font-size: 2em;
+    animation: title-zoom-in 3s infinite alternate;
+}
+
+@keyframes title-move {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(20px);}
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.project {
+    background-color: #554848;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 1px;
+    width: 700px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+
+.read-legend {
+    background-color: #e6b4b4;
+    color: #fff;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5%;
+}
+
+.read-legend:hover {
+    background-color: #555;
+}
+
+.project-description {
+    display: none;
+    margin-top: 10px;
+}
+
+.project-description.visible {
+    display: block;
+}
+
+.ferramentas img {
+    width: 50px;
+    margin: 10px;
+}
+
+footer {
+    background-color: GREY;
+    padding: 20px;
+    text-align: center;
+    color: #918d8d;
+}
+
+.round-button {
+    background-color: #d5a5a5;
+    color: #e3cfcf;
+    border: 2px solid #d8d2d2;
+    border-radius: 20%;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.round-button:hover {
+    background-color: #555;
+    color: #c4bbbb;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+

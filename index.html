@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danilsa Helena</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap">
+
+</head>
+
+<body>
+
+
+
+
+    <section id="inicio" data-aos="fade-right">
+        <div class="profile-container">
+            <img src="EUFOTOS/jornaldebranco.png" alt="foto-principal" class="profile-img">
+            <div class="about">
+                <h1>Danilsa Helena</h1>
+                <h4>WEB DEVELOPER (full-stack)</h4>
+                <p>Danilsa Helena is my name.I am a
+                    web developer specializing in SAP, Power BI, graphic design, and digital marketing.
+                </p>
+                <p>I developusing
+                    HTML, CSS,JavaScript ,C languages , PHP , Java and pyton;</p>
+                <p>I have experience in web, front-end development and back-end development, including the server-side
+                    languages.
+                    I have knowledge about databases, version control systems,frameworks such as React Native, Node.js,
+                    ...</p>
+
+                <p>Nowadays , am available to work remotely, in a hybrid environment, or in person.
+                    If you would like to
+                    work
+                    with me,
+                    please <button><a href="https://www.linkedin.com/in/danilsa-helena-947514314/">Contact me
+                            now!</a></button></p>
+            </div>
+        </div>
+
+        <footer id="contato" data-aos="fade-up">
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@dahelyd241"><img src="ICONES/YOUTUBE.png" alt="YouTube"></a>
+                <a href=":https://github.com/DanilsaH"><img src="ICONES/GITHUBE.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/danilsa-helena-947514314/"><img src="ICONES/LINKEDLN.png"
+                        alt="LinkedIn"></a>
+            </div>
+        </footer>
+
+    </section>
+
+
+    <section class="works" id="works" data-aos="fade-up">
+        <h2>TRABALHOS - Freelancer</h2>
+        <div class="table-container">
+            <div class="table-item"><a href="landingpages.html">Landing Pages-curriculos-portifolios</a></div>
+            <div class="table-item"><a href="ecommerces.html">E-comerces/websites</a></div>
+            <div class="table-item"><a href="sistemas.html">Sistemas</a></div>
+            <div class="table-item"><a href="softwares.html">Softwares</a></div>
+        </div>
+    </section>
+
+    <section id="agenda" data-aos="fade-up">
+        <div class="registration">
+            <form action="https://formsubmit.co/matelochinguinhecahelena@gmail.com " method="POST"></form>
+            <h1>REGISTRATION SCREEN</h1>
+            <h5>For services or job proposals</h5>
+            <form>
+                <label for="nome">Tell me about you:</label>
+                <input type="text" id="nome" name="nome" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="contacts">Other forms of contact you faster:</label>
+                <input type="text" id="contacts" name="contacts" required>
+                <br><br>
+                <label for="mensagem">Explain me your project or proposals:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <br><br>
+                <label for="budget">BUDGET $:</label>
+                <input type="text" id="budget" name="budget" required>
+                <br><br>
+                <button type="submit">Send to DANILSA HELENA</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        document.querySelectorAll('.table-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('zoomed');
+            });
+        });
+    </script>
+</body>
+
+</html>
