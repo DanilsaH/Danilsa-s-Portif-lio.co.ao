@@ -6,25 +6,17 @@
 
 
 body {
-    background-color: #fff;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom, white, #ffffff, #334EAC, blue, black);
+    color: #ffffff;
+
     color: #333;
-    background: linear-gradient(to right, 4s, infinite, #443939, #ece0d6);
     box-shadow: -3px -3px 5px 0px rgba(0, 0, 0, 0.5), 3px 3px 5px 0px rgba(255, 255, 255, 0.5);
 
-    background-size: 500% 100%;
 
-    animation: easy 4.5s ease-in-out alternate infinite;
 }
 
-@keyframes easy {
-    0% {
-        background-position-x: 0%;
-    }
-
-    v 100% {
-        background-position-x: 100%;
-    }
-}
 
 
 header {
@@ -84,13 +76,12 @@ nav ul li a:hover {
 }
 
 .about button {
-    background-color: #fefcfc;
+    background-color: blueviolet;
     color: #090909;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 13px;
-    height: 45px;
 
 }
 
@@ -188,6 +179,8 @@ nav ul li a:hover {
 
 .social-icons {
     display: inline-flex;
+
+
 }
 
 .social-icons a {
@@ -195,6 +188,8 @@ nav ul li a:hover {
     height: 40px;
     margin-left: 290px;
     cursor: pointer;
+    align-content: center;
+}
 
 }
 
