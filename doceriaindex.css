@@ -1,0 +1,204 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    color: #d4af37;
+    /* Gold color for text */~
+
+    background: linear-gradient(90deg, pink, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+    background-size: 1400% 1400%;
+    animation: rainbow 15s ease infinite;
+}
+
+@keyframes rainbow {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+header,
+.inicio,
+.apresentacao,
+.curiosidades,
+.encomende,
+footer {
+    padding: 20px;
+}
+
+.apresentacao {
+    border-radius: 20px;
+    background-color: white;
+}
+
+.typing {
+    font-size: 24px;
+    color: #d4af37;
+}
+
+.cursor {
+    border-left: 2px solid #d4af37;
+    animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.side-image {
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+
+}
+
+.encomende a {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: white;
+    color: #d4af37;
+    border: 2px solid #d4af37;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.encomende a:hover {
+    background-color: #d4af37;
+    color: white;
+}
+
+
+.curiosidades {
+    background-color: beige;
+}
+
+.curiosidade1 {
+
+    background-color: brown;
+    padding-inline-start:
+
+        display: inline-block;
+    margin: 20px auto;
+    border: 2px solid #d4af37;
+    border-radius: 5000px;
+
+
+
+}
+
+bl .curiosidade2 {
+    background-color: rgb(219, 196, 196);
+    padding-inline-start:
+}
+
+}
+
+.curiosidade3 {
+    background-color: rgb(113, 63, 63);
+    padding-inline-start:
+
+}
+
+.curiosidade4 {
+    background-color: blue;
+    padding-inline-start:
+}
+
+.curiosidades {
+    background-color: rgb(212, 84, 84);
+    padding-inline-start:
+}
+
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.inicio {
+    text-align: center;
+    padding: 20px;
+}
+
+.apresentacao {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5cm;
+    margin: 20px;
+}
+
+.encomende a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.curiosidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.curiosidade {
+    background-color: white;
+    border: 2px solid gold;
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    transition: transform 5.3s ease-in-out;
+}
+
+.curiosidade:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /* Ajuste conforme necessário */
+    overflow: hidden;
+}
+
+video {
+    top: 50%;
+    left: 50%;
+    min-width: absolute;
+    min-height: 100%;
+    width: 30cm;
+    height: auto;
+    transform: translate(-50%, -50%);
+
+}
