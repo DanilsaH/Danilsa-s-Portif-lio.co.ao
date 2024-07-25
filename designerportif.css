@@ -1,0 +1,116 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, white (238, 236, 236), #ffffff);
+    background-size: cover;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(227, 145, 145, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #847b7b;
+    font-weight: 700;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home {
+
+    background-image: url(IMGDESIGNER/DESIGNER.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: black;
+    padding: 200px 20px;
+    font-family: fantasy;
+    font-size: x-large;
+
+
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 0 20px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    margin: 10px;
+}
+
+.project-item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project-item img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    margin: 5px 0 15px;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
