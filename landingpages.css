@@ -2,7 +2,7 @@ body {
     background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
     background-size: 1400% 1400%;
     animation: rainbow 15s ease infinite;
-    color: #333;
+    color: #535353;
     font-family: Arial, sans-serif;
 }
 
@@ -90,10 +90,22 @@ section {
     transform: scale(1.05);
 }
 
+
+button {
+
+    background-color: #978b8b;
+
+}
+
+
+
+
+
+
 .read-legend {
-    background-color: #333333;
-    color: #655d5d;
-    border: none;
+    background-color: #faf7f7;
+    color: #050505;
+    border-radius: 15px;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -101,7 +113,7 @@ section {
 }
 
 .read-legend:hover {
-    background-color: #555;
+    background-color: #c1b2b2;
 }
 
 .project-description {
@@ -126,9 +138,9 @@ footer {
 }
 
 .round-button {
-    background-color: #fff;
-    color: #333;
-    border: 2px solid #333;
+    background-color: #403d3d;
+    color: #b6a8a8;
+    border: 5px solid #333;
     border-radius: 20%;
     padding: 10px 20px;
     cursor: pointer;
@@ -137,11 +149,18 @@ footer {
 }
 
 .round-button:hover {
-    background-color: #555;
+    background-color: #101010;
     color: #fff;
 }
 
 footer a {
     text-decoration: none;
     color: inherit;
+}
+
+button {
+
+    border-radius: 5px;
+    background-color: #faf1f1;
+
 }
