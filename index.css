@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
-* {
-    font-family: 'Núnito', sans-serif;
-}
 
 
 body {
 
-    font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: linear-gradient(to bottom, white, #ffffff, #334EAC);
+font-family: 
+    
+    background: linear-gradient(to bottom, black, black, gray);
     color: #ffffff;
 
     color: #333;
@@ -52,16 +48,7 @@ nav ul li a:hover {
     padding: 40px;
 }
 
-.profile-img {
-    max-width: 300px;
-    margin-right: 40px;
-    border-radius: 50%;
-}
 
-.about {
-    max-width: 600px;
-
-}
 
 .about h1,
 .about h4,
@@ -85,19 +72,13 @@ nav ul li a:hover {
 
 }
 
-.about button:hover {
-    background-color: #555;
-    cursor: pointer;
-    color: aquamarine;
-    border-radius: 13px;
-}
 
 .works {
     padding: 40px;
     text-align: center;
 
-    border-radius: 6px;
-    border-color: rgb(140, 125, 125);
+    border-radius: 2px;
+    border-color: gray;
 }
 
 .works h2 {
